@@ -42,7 +42,7 @@
                     <label>Description</label> <input type="text"  class="form-control" name="description" value="<%= product.getDescription() %>">
                 </fieldset>
                 <fieldset class="form-group">
-                    <label>Detail</label> <input type="text"  class="form-control" name="detail" value="<%= product.getDetail() %>">
+                    <label>Detail</label> <input type="text"  class="form-control" name="detail" value="<%= product.getDetail() %>" >
                 </fieldset>
                 <fieldset class="form-group">
                     <label>Thumbnail</label> <input type="text"  class="form-control" name="thumbnail" value="<%= product.getThumbnail() %>">

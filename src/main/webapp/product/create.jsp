@@ -122,13 +122,13 @@
             <label class="col-md-4 control-label" for="thumbnail"> Thumbnail</label>
             <div class="col-md-4">
                 <input id="thumbnail" name="thumbnail" placeholder="THUMBNAIL" class="form-control input-md" value="<%= product.getThumbnail() %>"  type="text">
-                <%
-                    if(errors.containsKey("thumbnail"))   {
-                %>
-                <div class="invalid-feedback">
-                    <%= errors.get("thumbnail")%>
-                </div>
-                <% } %>
+                    <%
+                        if(errors.containsKey("thumbnail"))   {
+                    %>
+                    <div class="invalid-feedback">
+                        <%= errors.get("thumbnail")%>
+                    </div>
+                    <% } %>
 
             </div>
         </div>

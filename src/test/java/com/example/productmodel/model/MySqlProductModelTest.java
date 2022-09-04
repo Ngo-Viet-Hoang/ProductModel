@@ -11,10 +11,10 @@ import static org.junit.jupiter.api.Assertions.*;
 class MySqlProductModelTest {
     private ProductModel productModel;
 
-    @BeforeEach
-    void setUp() {
-      productModel = new MySqlProductModel();
-    }
+        @BeforeEach
+        void setUp() {
+          productModel = new MySqlProductModel();
+        }
 
     @Test
     void save() {
